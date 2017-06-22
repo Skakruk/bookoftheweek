@@ -1,0 +1,162 @@
+body {
+    background-color: #fff;
+}
+
+
+a.arrows {
+    color: #5da0da;
+    text-decoration: none;
+    font-size: 68px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a.arrows:hover {
+    margin-left: -20px;
+}
+
+a.arrows.right:hover {
+    margin-right: -20px;
+    margin-left: 0;
+}
+
+
+body.logged-in .site-title{
+    margin-top: 41px;
+}
+
+.site-title {
+    background-color: #5da0da;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.site-title a {
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    font-size: 73px;
+    line-height: 73px;
+    text-shadow: 0 0 1px #333333;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+
+img.dayphoto {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+    -webkit-transition: opacity 0.7s ease-in-out;
+    -moz-transition: opacity 0.7s ease-in-out;
+    -o-transition: opacity 0.7s ease-in-out;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.dayimg-wrap:hover img.dayphoto {
+    opacity: 0.7;
+}
+
+.comments {
+    width: 100%;
+}
+
+.dayimg-wrap {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dayimg-wrap:hover .comments {
+    display: inline-block;
+}
+
+.tcell {
+    display: table-cell;
+}
+
+.datecell {
+    vertical-align: middle;
+}
+
+.datecell h3 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.calend {
+    line-height: 30px;
+    text-align: left;
+}
+
+.daynum {
+    display: inline-block;
+    float: left;
+    font-size: 50px;
+    margin-right: 13px;
+    margin-top: 14px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.like-container {
+    margin: 10px 0;
+}
+
+.count-likes {
+    float: right;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.biblio-logo {
+    vertical-align: middle;
+}
+
+.user-flag {
+    margin-bottom: 15px;
+}
+
+.project-local-title {
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    margin: 15px 0;
+    display: inline-block;
+    font-size: 24px;
+    color: #5da0da;
+}
+
+.nav-archive {
+    float: right;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.book-img-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 980px) {
+    .main-container {
+        width: 940px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 979px) {
+    .site-title a {
+        margin: 0;
+    }
+
+    .site-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+}

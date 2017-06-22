@@ -1,0 +1,3 @@
+body{background-color:#ffe877}.site-title{color:#b22222;font-family:'Bad Script',cursive;font-size:50px;line-height:73px;margin:50px;text-shadow:0 0 20px yellow}
+img.dayphoto{display:inline-block;max-width:100%;min-width:100%;-webkit-transition:opacity .7s ease-in-out;-moz-transition:opacity .7s ease-in-out;-o-transition:opacity .7s ease-in-out;transition:opacity .7s ease-in-out}
+.row div:hover img.dayphoto{opacity:.7}.comments{display:none;position:absolute;text-align:center;top:50%;width:100%}.row div{position:relative}.row div:hover .comments{display:inline-block}
